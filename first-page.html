@@ -11,16 +11,21 @@ p{
     font-size: 30px;
     text-align: center;
     opacity: 0.7;
-
 }
 
 h1{
     font-size: 45px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
-form{
+h1:hover {
+    color:blue;
+    font-family: arial;
+}
+
+#name-input{
     text-align: center;
 }
 
@@ -41,7 +46,7 @@ form{
 
 <p><em>Please, enter your first and last name below...</em></p>
 
-<form>
+<form id="name-input">
     <label for="fname"> First Name: </label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="lname"> Last Name: </label><br>
